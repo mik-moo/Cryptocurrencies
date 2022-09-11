@@ -3,7 +3,7 @@ Module 18
 
 ## Overview
 
-An investment bank would like to create a cryptocurrency investment portfolio.  This analysis and report identifed the currencies that are currently trading and classified them.  This project used pre-processing with Pandas and Python to clean a cryptocurrency dataset.  Unsupervised machine learning was used to cluster the data, then tables and visualizations were produced to visualize the dataset.
+An investment bank would like to create a cryptocurrency investment portfolio.  This analysis and report identifed the currencies that are currently trading and classified them.  This project used pre-processing with Pandas and Python to clean a cryptocurrency dataset.  Unsupervised machine learning was used to cluster the data, then tables and graphs were produced to visualize the dataset.
 
 ## Process
 
@@ -11,7 +11,7 @@ The supplied data file was read in as a DataFrame and columns were evaluated.  T
 
 <figcaption align = "center"><b>Sample of Filtered Data</b></figcaption><img src="images/istrading_true.png" > 
 
-The data was then further filtered to include only Coins that had a mined value of greater than zero so that there is a supply that is available for trade.
+The data was then further filtered to include only Coins that had a mined value of greater than zero so that there is a supply available for trade.
 
 <figcaption align = "center"><b>Coins with available supply</b></figcaption><img src="images/coins_mined.png" > 
 
