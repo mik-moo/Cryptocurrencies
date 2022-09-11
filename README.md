@@ -17,7 +17,7 @@ The data was then further filtered to include only Coins that had a mined value 
 
 The coin names were pulled to a separate DataFrame and the column was dropped from the working DataFrame since it was not needed for use in the data clustering. The get_dummies function was used to create variables for the two categorical columns and the data was scaled using a StandardScaler.  Principal Component Analysis (PCA) was used to identify three principal components. An elbow curve was plotted to determine cluster number.  
 
-<figcaption align = "center"><b>Elbow Curve</b></figcaption><img src="images/elbow.png"> 
+<figcaption align = "center"><b></b></figcaption><img src="images/elbow.png"> 
 
 Four clusters were used to fit the model and perform predictions of the classes which were added to a DataFrame. The previous DataFrames were joined to encompass all data.
 
